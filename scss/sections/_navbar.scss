@@ -1,0 +1,16 @@
+//adding gradeient and some extra styling
+@use '../custom' as *;
+@use '../component/mixins' as *;
+
+.menu{
+    @include graient;
+
+    li{
+        padding: 0 0.7rem;
+        a{
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
