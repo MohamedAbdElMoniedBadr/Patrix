@@ -1,0 +1,16 @@
+@use 'custom';
+
+//using the component styles
+
+@use 'component/animations';
+@use 'component/buttons';
+@use 'component/mixins';
+@use 'component/typography';
+
+//using pages styles
+
+@use 'sections/about';
+@use 'sections/navbar';
+@use 'sections/product-description';
+@use 'sections/product-add';
+@use 'sections/products-overview';
